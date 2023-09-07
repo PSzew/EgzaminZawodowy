@@ -1,0 +1,18 @@
+************************************************************************************************************************
+nazwa funkcji: Get()
+opis funkcji: Funckja pobiera oraz sprawdza dane wejsciowe
+parametry: brak
+
+zwracany typ i opis: Zwraca bool, true jeśli dane wejsciowe są prawidłowe , false jeśli dane wejsciowe są niepoprawne.
+autor: Paweł Szewczyk
+************************************************************************************************************************
+
+************************************************************************************************************************
+nazwa funkcji: NWD()
+opis funkcji: Funckja wyszukuje Najwiekszy wspólny dzielnik dla a i b
+parametry: a - jedna z liczb dla których zostanie wyszukane NWD
+	   b - jedna z liczb dla których zostanie wyszukane NWD
+
+zwracany typ i opis: Zwraca int,Największy wspólny dzielnik dla liczb a i b
+autor: Paweł Szewczyk
+************************************************************************************************************************
