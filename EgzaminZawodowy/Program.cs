@@ -9,6 +9,16 @@ namespace MyApp
             int a = 0, b = 0;
             bool Get()
             {
+               /*
+                    ************************************************************************************************************************
+                    nazwa funkcji: Get()
+                    opis funkcji: Funckja pobiera oraz sprawdza dane wejsciowe
+                    parametry: brak
+                
+                    zwracany typ i opis: Zwraca bool, true jeśli dane wejsciowe są prawidłowe , false jeśli dane wejsciowe są niepoprawne.
+                    autor: Paweł Szewczyk
+                    ************************************************************************************************************************
+                */
                 Console.Write("Podaj a: ");
                 if(!Int32.TryParse(Console.ReadLine(),out a))
                 {
