@@ -34,6 +34,17 @@ namespace MyApp
             }
             int NWD(int A , int B)
             {
+                /*
+                    ************************************************************************************************************************
+                    nazwa funkcji: NWD()
+                    opis funkcji: Funckja wyszukuje Najwiekszy wspólny dzielnik dla a i b
+                    parametry: a - jedna z liczb dla których zostanie wyszukane NWD
+                    	   b - jedna z liczb dla których zostanie wyszukane NWD
+                    
+                    zwracany typ i opis: Zwraca int,Największy wspólny dzielnik dla liczb a i b
+                    autor: Paweł Szewczyk
+                    ************************************************************************************************************************
+                */
                 while(A != B)
                 {
                     if (A > B)
